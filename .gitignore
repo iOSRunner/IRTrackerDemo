@@ -6,6 +6,7 @@
 build/
 DerivedData/
 IRTrackerDemo.xcodeproj/xcuserdata/
+Pods/
 
 
 ## Various settings
