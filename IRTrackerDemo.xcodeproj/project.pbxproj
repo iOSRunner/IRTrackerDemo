@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98201331B76DE82F80F89B59 /* libPods-IRTrackerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA1670A48F0E286FFF50F4E /* libPods-IRTrackerDemo.a */; };
 		F7DE51F01F1F5B7A00E647B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE51EF1F1F5B7A00E647B4 /* main.m */; };
 		F7DE51F31F1F5B7A00E647B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE51F21F1F5B7A00E647B4 /* AppDelegate.m */; };
 		F7DE51F61F1F5B7A00E647B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DE51F51F1F5B7A00E647B4 /* ViewController.m */; };
@@ -17,8 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2AB8EB9ACF415A38A5BF9CF1 /* Pods-IRTrackerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRTrackerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IRTrackerDemo/Pods-IRTrackerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		6DA1670A48F0E286FFF50F4E /* libPods-IRTrackerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IRTrackerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DE51EB1F1F5B7A00E647B4 /* IRTrackerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRTrackerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DE51EF1F1F5B7A00E647B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7DE51F11F1F5B7A00E647B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,7 +26,6 @@
 		F7DE51FA1F1F5B7A00E647B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7DE51FD1F1F5B7A00E647B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7DE51FF1F1F5B7A00E647B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC6D45E197F27295445375B8 /* Pods-IRTrackerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRTrackerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IRTrackerDemo/Pods-IRTrackerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,37 +33,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98201331B76DE82F80F89B59 /* libPods-IRTrackerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6DE581BC83E4A46CAAD0726B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2AB8EB9ACF415A38A5BF9CF1 /* Pods-IRTrackerDemo.debug.xcconfig */,
-				FC6D45E197F27295445375B8 /* Pods-IRTrackerDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		86B5557D2B70E8AAD8E5E26F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6DA1670A48F0E286FFF50F4E /* libPods-IRTrackerDemo.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F7DE51E21F1F5B7A00E647B4 = {
 			isa = PBXGroup;
 			children = (
 				F7DE51ED1F1F5B7A00E647B4 /* IRTrackerDemo */,
 				F7DE51EC1F1F5B7A00E647B4 /* Products */,
-				6DE581BC83E4A46CAAD0726B /* Pods */,
-				86B5557D2B70E8AAD8E5E26F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,12 +86,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7DE52021F1F5B7A00E647B4 /* Build configuration list for PBXNativeTarget "IRTrackerDemo" */;
 			buildPhases = (
-				99340D091EE99CD68F712ACC /* [CP] Check Pods Manifest.lock */,
 				F7DE51E71F1F5B7A00E647B4 /* Sources */,
 				F7DE51E81F1F5B7A00E647B4 /* Frameworks */,
 				F7DE51E91F1F5B7A00E647B4 /* Resources */,
-				668904A5DD0884435E313B0C /* [CP] Embed Pods Frameworks */,
-				BE7B4645E65E7E5B06C190F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,54 +145,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		668904A5DD0884435E313B0C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IRTrackerDemo/Pods-IRTrackerDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99340D091EE99CD68F712ACC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BE7B4645E65E7E5B06C190F1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IRTrackerDemo/Pods-IRTrackerDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7DE51E71F1F5B7A00E647B4 /* Sources */ = {
@@ -346,7 +271,6 @@
 		};
 		F7DE52031F1F5B7A00E647B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AB8EB9ACF415A38A5BF9CF1 /* Pods-IRTrackerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57D4T2G5AY;
@@ -359,7 +283,6 @@
 		};
 		F7DE52041F1F5B7A00E647B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC6D45E197F27295445375B8 /* Pods-IRTrackerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 57D4T2G5AY;
